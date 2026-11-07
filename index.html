@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fff7f8"><meta name="description" content="Discover Tamil television serials and their latest official episodes on Simply Serials.">
+  <title>Simply Serials – Tamil Entertainment</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">▶</span><span>Simply<span>Serials</span><small>உங்கள் மனம் கவர்ந்த தொடர்கள்!</small></span></a>
+    <nav class="main-nav"><a class="active" href="index.html">Home</a><a href="#serials">Serials</a><a href="#latest">Latest Episodes</a><a href="#channels">Channels</a></nav>
+    <div class="header-actions"><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Search serials..."></label><a class="admin-link" href="admin.html">Admin</a><button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button></div>
+  </header>
+  <main>
+    <section class="hero-wrap"><div class="hero-copy"><span class="eyebrow">WELCOME TO SIMPLY SERIALS</span><h1>Your favourite Tamil<br><em>serials, all in one place.</em></h1><p>Discover serials, explore episodes and find official ways to watch.</p><a class="primary-btn" href="#serials">Explore Serials <span>→</span></a></div><div class="hero-art"><div class="hero-flower flower-one">✿</div><div class="hero-flower flower-two">✿</div><div class="hero-orbit"></div><div class="hero-card"><span class="hero-card-icon">▶</span><strong>Simply Serials</strong><small>Stories that bring us together</small></div><div class="hero-note">பொழுதுபோக்கு<br><b>இனி இன்னும் எளிது!</b></div></div></section>
+    <section class="channel-section" id="channels"><div class="section-heading"><div><span class="eyebrow">BROWSE BY CHANNEL</span><h2>உங்கள் விருப்பமான சேனல்கள்</h2></div></div><div class="channel-pills" id="channelPills"><button class="channel-pill selected" data-channel="All">All Channels</button><button class="channel-pill" data-channel="Sun TV">☀ Sun TV</button><button class="channel-pill" data-channel="Vijay TV">★ Vijay TV</button><button class="channel-pill" data-channel="Zee Tamil">ZEE தமிழ்</button><button class="channel-pill" data-channel="Colors Tamil">Colors தமிழ்</button></div></section>
+    <section class="content-section" id="serials"><div class="section-heading"><div><span class="eyebrow">FIND YOUR NEXT FAVOURITE</span><h2>Popular Serials <span class="heading-flower">✿</span></h2></div><span class="result-count" id="serialCount"></span></div><div class="serial-grid" id="serialGrid"><div class="loading-card">Loading serials…</div></div><div class="empty-state hidden" id="emptyState">No serials found. Try another search or channel.</div></section>
+    <section class="latest-section" id="latest"><div class="section-heading"><div><span class="eyebrow">DON'T MISS OUT</span><h2>Latest Episodes</h2></div></div><div class="episode-list" id="latestEpisodes"><div class="loading-card">Loading latest episodes…</div></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">▶</span><span>Simply<span>Serials</span><small>உங்கள் மனம் கவர்ந்த தொடர்கள்!</small></span></a><p>Made for Tamil entertainment lovers. Watch through authorised video sources.</p><div><a href="mailto:hello@simplyserials.example">Contact</a><a href="privacy.html">Privacy</a></div><small>© <span id="year"></span> Simply Serials</small></footer>
+  <script type="module" src="app.js"></script>
+</body></html>
