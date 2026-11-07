@@ -1,12 +1,21 @@
-// 1. Create a Firebase project at https://console.firebase.google.com/
-// 2. Register a Web App and paste its config values below.
-// These are public client configuration values, NOT admin credentials.
-export const firebaseConfig = {
-  apiKey: "YOUR_FIREBASE_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_FIREBASE_APP_ID"
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD9QTNQpXmOjfPJ4VZ2-ti-v7x4wfvBUWI",
+  authDomain: "simply-serials.firebaseapp.com",
+  projectId: "simply-serials",
+  storageBucket: "simply-serials.firebasestorage.app",
+  messagingSenderId: "85310866918",
+  appId: "1:85310866918:web:0f0fc4adacd475c6168227",
+  measurementId: "G-F2LLNVJLWV"
 };
-export const isFirebaseConfigured = !firebaseConfig.apiKey.startsWith("YOUR_");
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
