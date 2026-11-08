@@ -1,4 +1,4 @@
 // data-config.js
 window.CONFIG = {
-  API_URL: "https://script.google.com/macros/s/YOUR_ACTUAL_DEPLOYMENT_ID/exec"
+  API_URL: "https://script.google.com/macros/s/AKfycbwIM_LX2zYG2IVgifdnVRWO0LM81CqAdwqvpyQaGOqkhmcrX-yWBfoKrrCujDCa2A/exec](https://script.google.com/macros/s/AKfycbwIM_LX2zYG2IVgifdnVRWO0LM81CqAdwqvpyQaGOqkhmcrX-yWBfoKrrCujDCa2A/exec"
 };
