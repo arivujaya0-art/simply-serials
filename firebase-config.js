@@ -6,7 +6,7 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.1/firebas
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyD9QTNQpXmOjFPJ4VZ2-ti-v7x4wfvBUWI",
   authDomain: "simply-serials.firebaseapp.com",
   projectId: "simply-serials",
@@ -15,3 +15,5 @@ const firebaseConfig = {
   appId: "1:85310866918:web:0f0fc4adacd475c6168227",
   measurementId: "G-F2LLNVJLWV"
 };
+
+export const isFirebaseConfigured = Boolean(firebaseConfig && firebaseConfig.apiKey);
